@@ -1,35 +1,17 @@
 {
-    "description": "JDK Mission Control for Corretto",
-    "homepage": "https://github.com/corretto/corretto-jmc",
-    "version": "8.1.1.1",
+    "description": "JDK 8u44 for openjdk",
+    "homepage": "https://github.com/c/jdk8u-ri",
+    "version": "8u44-b02",
     "license": "UPL-1.0",
+    "extract_dir": "jdk8u-ri-jdk8u44-b02",
+    "env_add_path": "bin",
+    "env_set": {
+        "JAVA_HOME": "$dir"
+    },
     "architecture": {
         "64bit": {
-            "url": "https://corretto.aws/downloads/resources/jmc/8.1.1.1/amazon-corretto-jmc-8.1.1.1-windows-x64.zip",
-            "hash": "4ffc544b48a9a885d6d85b342ca18b26612ec4b9ee12f9f6db5c860156290608"
-        }
-    },
-    "shortcuts": [
-        [
-            "jmc.exe",
-            "JDK Mission Control for Corretto"
-        ]
-    ],
-    "persist": "configuration",
-    "checkver": {
-        "url": "https://github.com/corretto/corretto-downloads/raw/main/latest_links/indexmap_with_checksum.json",
-        "jsonpath": "$.jmc.windows.x64.zip.resource",
-        "regex": "/([\\d.]+)/"
-    },
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://corretto.aws/downloads/resources/jmc/$version/amazon-corretto-jmc-$version-windows-x64.zip",
-                "hash": {
-                    "url": "https://github.com/corretto/corretto-downloads/raw/main/latest_links/indexmap_with_checksum.json",
-                    "jsonpath": "$.jmc.windows.x64.zip.checksum_sha256"
-                }
-            }
+            "url": "https://github.com/openjdk/jdk8u-ri/archive/refs/tags/jdk8u44-b02.zip",
+            "hash": "7c1aad299b966e64b9db06732b4242603c383f4d2fd87f4ade1bd0f2ca4ad83c"
         }
     }
 }
