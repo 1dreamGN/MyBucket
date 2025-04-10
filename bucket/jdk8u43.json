@@ -1,6 +1,6 @@
 {
     "description": "JDK 8u41 for openjdk",
-    "homepage": "https://github.com/c/jdk8u-ri",
+    "homepage": "https://download.java.net/openjdk/jdk8u41/ri",
     "version": "8u41-b04",
     "license": "UPL-1.0",
     "extract_dir": "8u41-b04",
