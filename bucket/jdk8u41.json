@@ -3,15 +3,15 @@
     "homepage": "https://github.com/openjdk/jdk8u-ri",
     "version": "8u41-b04",
     "license": "UPL-1.0",
-    "env_add_path": "bin",
+    "env_add_path": "java-se-8u41-ri/bin",
     "env_set": {
-        "JAVA_HOME": "$dir"
+        "JAVA_HOME": "$dir/java-se-8u41-ri"
     },
     "architecture": {
         "64bit": {
             "url": "https://download.java.net/openjdk/jdk8u41/ri/openjdk-8u41-b04-windows-i586-14_jan_2020.zip",
             "hash": "22fada5528c116f2f1a5dba9001e72c1ef2859832cec9259fdfa3a9ce719496a",
-            "extract_dir": "jdk8u41-b04/java-se-8u41-ri"
+            "extract_dir": "jdk8u41-b04"
         }
     }
 }
