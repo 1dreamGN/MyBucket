@@ -3,7 +3,7 @@
     "homepage": "https://github.com/openjdk/jdk8u-ri",
     "version": "8u41-b04",
     "license": "UPL-1.0",
-    "env_add_path": "bin",
+    "env_add_path": "java-se-8u41-ri/bin",
     "env_set": {
         "JAVA_HOME": "$dir"
     },
